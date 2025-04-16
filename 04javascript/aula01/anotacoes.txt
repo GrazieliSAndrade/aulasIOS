@@ -1,0 +1,61 @@
+Convenções de Nomenclatura:
+https://www.alura.com.br/artigos/convencoes-nomenclatura-camel-pascal-kebab-snake-case?srsltid=AfmBOor0gezcMOqpPOSF8wEW4nHbxD_v2ALitxqoSLmPtrm63JJMVzOf
+
+Determinar variável:
+*let*
+
+Exemplos:
+let nomeAluno = "Josué"
+(variável armazenou que o "anomeAluno" é Josué)
+
+let idadeAluno = 18
+(não precisa colocar aspas no número)
+
+let praia = true & false
+
+- Ideal usar aspas simples: '' e não aspas duplas "";
+
+- Caso precise fazer uma soma, não colocar aspas ('' ou "" ) em números;
+
+. console.log(typeof(hhgsfgh)) Identifica qual programação o código faz parte
+
+. comentário = // (pode falar o que quiser)
+
+. O símbolo de = trás um valor para algo
+
+. \n = pula linha
+
+Atividade 01:
+//atividade de hoje
+
+//criar variáveis: nome, idade, se gosta de praia
+//executar no console
+//criar uma frase para o consoles
+
+console.log('Olá mundo!');
+
+let nomeAluno = 'Grazieli'
+let idadeAluno = 17
+let praia = true
+
+console.log('Nome do aluno(a) é:', nomeAluno)
+console.log('Idade do aluno(a):', idadeAluno)
+console.log('Gosta de praia:', praia)
+
+Assim:
+console.log('Meu nome é', nomeAluno, 'tenho', idadeAluno, 'e eu gosto de praia', praia)
+Ou:
+let frase = "Meu nome é Grazieli, tenho 17 anos e gosto de praia"
+console.log('Frase:', frase)
+
+Calcular:
+let altura = 1.60
+let peso = 55
+let imc = peso / (altura * altura)
+console.log(imc)
+
+
+
+
+
+

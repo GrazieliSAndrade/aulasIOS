@@ -1,0 +1,9 @@
+Arrays sempre começa no 0
+
+Array bidimencional é um "Array dentro de um array"
+
+Array unidimencional = Array simples
+
+Para abrir um Array, usa-se um colchete []
+
+.length = conta a QUANTIDADE

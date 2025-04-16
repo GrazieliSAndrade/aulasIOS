@@ -1,0 +1,73 @@
+AULA 2
+
+const: variável, não pode alterar, NUNCA pode ser declarada vazia. 
+
+var = Nãao usar
+
+let  nomeLet = 'Pedro'
+var nomeVar = 'José Silva'
+const pi = 3.14  //nunca pode ser alterado
+
+nomeLet = 'Joao'
+cachorro = 'Bobby'
+
+
+
+console.log(5 * pi); //o javascript da erro
+
+
+//definição de bloco
+
+function bloco ( ){
+    console.log(nomeVar);
+    console.log(nomeVar);
+}
+bloco ()
+
+
+Decisao - Atividade 2
+
+let sabor1 = 'morango'
+let sabor2 = 'sensação'
+let sabor3 = 'churros'
+
+let saborEscolhido = sabor1
+
+if (saborEscolhido == sabor1) {
+    console.log('chefe! seu sorvete de', saborEscolhido, "está pronto");
+}
+ else if (saborEscolhido == sabor2) {
+    console.log('chefe! seu sorvete de', saborEscolhido, "está pronto");
+}
+ else if (saborEscolhido == sabor3) {
+    console.log('chefe! seu sorvete de', saborEscolhido, "está pronto");
+} 
+ else {
+    console.log("Sabor inválido");
+ }
+
+
+ATIVIDADE MÁQUINA DE SORVETE (difícil):
+
+Condição:
+!=: diferente de algo
+
+
+let sabor1 = 'morango'
+let sabor2 = 'sensação'
+let sabor3 = 'churros'
+
+let saborEscolhido = sabor1
+
+if (saborEscolhido == sabor1) {
+    console.log('chefe! seu sorvete de', saborEscolhido, "está pronto");
+}
+ else if (saborEscolhido == sabor2) {
+    console.log('chefe! seu sorvete de', saborEscolhido, "está pronto");
+}
+ else if (saborEscolhido == sabor3) {
+    console.log('chefe! seu sorvete de', saborEscolhido, "está pronto");
+} 
+ else {
+    console.log("Sabor inválido");
+ }
