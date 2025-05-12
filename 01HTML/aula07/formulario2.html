@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<style>
+    body {
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        
+    }
+</style>
+<body>
+    <h1>Aula 07</h1>
+
+    <form action="">
+        <p>Cardápio - Pastel&amp;Cia</p>
+
+        <select name="saborPastel" id="saborPastel">
+            <option value="pizza">Pizza</option>
+            <option value="bauru">Bauru</option>
+            <option value="quatro-queijos">Quatro queijos</option>
+            <option value="calabresa">Calabresa</option>
+            <option value="carne-seca">Carne seca com queijo</option>
+            <option value="presunto">Presunto</option>
+            <option value="carne">Carne</option>
+            <option value="nutella">Nutella</option>
+            <option value="palmito">Palmito com queijo</option>
+            <option value="carne-cheddar">Carne com cheddar</option>
+        </select>
+
+        <br>
+
+        <p>Estamos expandindo nossas unidades, sugira a sua cidade
+            para avaliemos a abertuda de uma de nossas lojas:</p>
+            
+        <datalist id="municipios">
+            <option value="Jaraguá">Pico do Jaraguá⛰</option>
+            <option value="Mauá">Mauá Plaza Shopping🏪</option>
+            <option value="Santo André"> Museu de Santo André📵</option>
+            <option value="Guarulhos">Zoológico Municipal🦒</option>
+            <option value="Osasco">Catedral de Santo Antônio⛪</option>
+            <option value="Campinas"> Torre do Castelo🏰</option>
+            <option value="Sorocaba">Museu de Arte Contemporânea de Sorocaba🎨</option>
+            <option value="São Bernardo do Campo">Prainha do Riacho Grande🏖</option>
+            <option value="Mogi das Cruzes"> Parque Centenário🏞</option>
+            <option value="Suzano">Templo Budista Nambei Shingonshu🛕</option>
+
+        </datalist>
+
+        <label for="indicaMunicipio">Insira seu município abaixo:</label> <br>
+        <input type="text" autocomplete="on"
+        name="indicaMunicipio" id="indicaMunicipio" list="municipios">
+
+        <input type="submit" value="Enviar">
+
+    </form>
+</body>
+
+</html>

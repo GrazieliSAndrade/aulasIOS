@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<style>
+    body {
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+</style>
+<body>
+
+    <h1>Aula 07</h1>
+    <h2>Formulário: Visita TOTVS </h2>
+
+    <!-- mailto: é uma ação de formulário que envia os dados como e-gmail -->
+    <!-- methood define qual será o tipo utilizado pelo formulário -->
+    <form action="mailto:" method="post">
+
+        <!--Label = Rótulo | Dá título ou nome a algo-->
+        <!-- for = nome/id do elemento que está recebendo esse rótulo-->
+        <label for="nomeCompleto">Nome completo:</label>
+        <input type="text" required minlength="3" maxlength="52" id="nomeCompleto" name="nomeCompleto">
+        <!--required torna requirido o preenchimento do campo, ou seja,
+             o cliente não pode terminar o formulário sem preencher o campo-->
+
+        <br><br>
+
+        <label for="cpf">CPF:</label>
+        <input type="text" required id="cpf" minlength="11"
+         maxlength="11" name="cpf">
+
+        <br><br>
+
+        <label for="rg">RG:</label>
+        <input type="text" required id="rg" name="rg" minlength="6" maxlength="27">
+
+        <p>De qual estado você virá?</p>
+
+        <!-- Colocar o mesmo nome em todas as "radio" que pertencerem ao mesmo grupo
+        assim, o HTML entende que, só pode selecionar uma resposta aquela pergunta-->
+
+        <input type="radio" name="estado" id="saoPaulo">
+        <label for="saoPaulo">São Paulo</label>
+        
+        <br>
+
+        <input type="radio" name="estado" id="rioDeJaneiro">
+        <label for="rioDeJaneiro">Rio de Janeiro</label>
+
+        <br>
+
+        <input type="radio" name="estado" id="minasGerais">
+        <label for="minasGerais">Minas Gerais</label>
+
+        <p>Método de transporte:</p>
+
+        <label for="onibus">Ônibus</label>
+        <input type="checkbox" name="transporte" id="onibus" value="Onibus">
+
+        <br>
+
+        <label for="metro">Metrô</label>
+        <input type="checkbox" name="transporte" id="metro" value="Metro">
+
+        <br>
+
+        <label for="cptm">CPTM</label>
+        <input type="checkbox" name="transporte" id="cptm" value="Cptm">
+
+        <br>
+
+        <label for="bicicleta">Bicicleta</label>
+        <input type="checkbox" name="transporte"  id="bicicleta" value="Bicicleta">
+
+        <br>
+
+
+        <label for="patins">Patins</label>
+        <input type="checkbox" name="transporte"  id="patins" value="Patins">
+
+        <br><br>
+
+        <input type="submit" value="Enviar">
+    </form>
+</body>
+</html>
